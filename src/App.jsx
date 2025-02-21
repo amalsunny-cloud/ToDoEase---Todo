@@ -124,7 +124,7 @@ function App() {
       {/* Main Content */}
       <div className="container">
         <div className="card">
-          <h1 className="card-title">ToDoEase - Todo</h1>
+          <h1 className="card-title">ToDoEase - Todo App</h1>
 
           <form onSubmit={addTask} className="input-group">
             <input type="text" value={task} onChange={(e) => setTask(e.target.value)} placeholder="Enter a task" disabled={isLoading}/>
